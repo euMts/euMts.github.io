@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .admin {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .social {
+    /* background-image: url('components/images/products-background.jpg'); */
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .mainBox-div {
+    display: flex;
+    width: 100%;
+    height: 91.5vh;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+  }
+
+  .mainBox {
+    display: flex;
+    max-width: 500px;
+    min-width: 238px;
+    width: calc(170vw / 2);
+    /* min-height: 1400px; */
+    max-height: 1019px;
+    height: calc(170vh / 2);
+    /* align-items: center;
+    justify-content: center; */
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    flex-flow: column;
+  }
+
+  .mainBox > h1 {
+    color: #fff;
+  }
+
+  .mainBox-header {
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: sticky;
+  }
+
+  .mainBox-header > img {
+    max-width: 200px;
+    min-width: 30px;
+    width: 21vw;
+    max-height: 200px;
+    min-height: 30px;
+    height: 21vw;
+    border-radius: 50%;    
+  }
+
+  .content {
+    display: flex;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-self: center;
+
+  }
+
+  /* background-color: #252e48; */
+
+/* 
+  @media screen and (max-width: 960px) {
+    .mainBox{
+      background-color: red;
+
+    }
+  } */
