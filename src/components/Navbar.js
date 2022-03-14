@@ -29,8 +29,8 @@ function Navbar() {
 
     const checkUrl = (section) => {
         const urlAtual = window.location.pathname;
-        if(urlAtual !== "/business-website/" && section !== "contact") {
-            window.location.assign(`/business-website/#${section}`);
+        if(urlAtual !== "/" && section !== "contact") {
+            window.location.assign(`/#${section}`);
         }
     }
 
@@ -56,7 +56,7 @@ function Navbar() {
                         </ScrollLink>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/business-website/contact' className='nav-links' onClick={() => closeMobileMenu('contact')}>
+                        <Link to='/contact' className='nav-links' onClick={() => closeMobileMenu('contact')}>
                             Contact    
                         </Link>
                     </li>
