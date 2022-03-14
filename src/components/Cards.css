@@ -44,19 +44,35 @@
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .cards__item__pic-wrap_python {
     position: relative;
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
   }
   
-  .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
+  .cards__item__pic-wrap_python::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #306998;
+    box-sizing: border-box;
+  }
+
+  .cards__item__pic-wrap_react {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
   }
   
-  .cards__item__pic-wrap::after {
+  .cards__item__pic-wrap_react::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -70,6 +86,11 @@
     box-sizing: border-box;
   }
   
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+
   .cards__item__img {
     position: absolute;
     top: 0;
