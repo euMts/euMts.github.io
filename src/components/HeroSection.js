@@ -9,7 +9,7 @@ function HeroSection() {
         {/* <video src={video} autoPlay loop muted /> */}
         <h1>MATHEUS EDUARDO</h1>
         <p>Software engineer/developer and professional problem-solver.</p>
-        <p className='info-container'>400 followers - 15 projects</p>
+        <p className='info-container'>446 followers - 15 projects</p>
     </section>
   );
 };
