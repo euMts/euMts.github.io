@@ -5,7 +5,7 @@ Repositório oficial do meu website pessoal.<br>
 Qualquer um pode utilizar este código como base, porém, caso for colocado em produção deve-se referenciar este repositório.<br>
 ### Dúvidas<br>
 Qualquer dúvida ou erro entre em contato comigo.<br>
-Ultima atualização: 14/03/2022<br>
+Ultima atualização: 10/04/2022<br>
 ### Doações<br>
 Gostou da ideia?<br>
 Gostaria de me ajudar a continuar fazendo e estudando o que gosto?<br>
@@ -18,7 +18,7 @@ Official repository of my personal website<br>
 Anyone can use this code , however, if it is put into production, this repository must be referenced.<br>
 ### Questions<br>
 Any question or error send me a message. <br>
-Last update: 14/03/2022
+Last update: 10/04/2022<br>
 ### Donations <br>
 Liked the idea?<br>
 Would you like to help me keep doing and studying what I like?<br>
