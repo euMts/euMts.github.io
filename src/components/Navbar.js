@@ -61,7 +61,7 @@ function Navbar() {
                         </ScrollLink>
                     </li>
                     <li className='nav-item'>
-                        <ScrollLink to='about' className={navbar ? 'nav-links set' : 'nav-links'} spy={true} smooth={true} offset={-80} duration={600} onClick={() => closeMobileMenu('cards')}>
+                        <ScrollLink to='about' className={navbar ? 'nav-links set' : 'nav-links'} spy={true} smooth={true} offset={-80} duration={600} onClick={() => closeMobileMenu('about')}>
                             About    
                         </ScrollLink>
                     </li>
@@ -71,7 +71,7 @@ function Navbar() {
                         </ScrollLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink to='/contact' className={navbar ? 'nav-links set' : 'nav-links'} offset={-80} duration={600} onClick={() => closeMobileMenu('cards')}>
+                        <NavLink to='/contact' className={navbar ? 'nav-links set' : 'nav-links'} offset={-80} duration={600} onClick={() => closeMobileMenu('contact')}>
                             Contact    
                         </NavLink>
                     </li>
