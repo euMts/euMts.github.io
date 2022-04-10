@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-    <Router basename='/'>
+    <Router basename='/euMts.github.io'> {/* change to '/repo_name' OR just a '/' */}
       <Navbar />
       <Routes>
         <Route path={'/'} element={<Home />} />
