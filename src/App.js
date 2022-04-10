@@ -1,25 +1,22 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-// npm install react-router-dom@5.2.0
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
-import Home from './components/pages/Home';
-import Admin from './components/pages/Admin';
-import Contact from './components/pages/Contact';
+// npm install react-router-dom@6
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './styles/App.css';
+import Home from './pages/Home';
+import Admin from './pages/Admin';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/'>
       <Navbar />
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/admin' component={Admin} />
-        <Route path='/contact' component={Contact} />
-        {/* <Route path='/business-website' exact component={Home} />
-        <Route path='/business-website/admin' component={Admin} />
-        <Route path='/business-website/contact' component={Contact} /> */}
-      </Switch>
+      <Routes>
+        <Route path={'/'} element={<Home />} />
+        <Route path={'/admin'} element={<Admin />} />
+        <Route path={'/contact'} element={<Contact />} />
+      </Routes>
     </Router>
     </>
   );

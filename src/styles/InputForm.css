@@ -1,0 +1,52 @@
+.input-form {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input,
+textarea {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1.2rem;
+    color: white;
+    background-color: #242424;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+textarea {
+    min-height: 137px;
+    resize: vertical;
+}
+
+button[type='submit'] {
+    background-color: #242424;
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 4rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 240px) {
+    button[type='submit'] {
+        width: 100%;
+        font-size: 1rem;
+        padding: 7px 2px;
+    }
+}

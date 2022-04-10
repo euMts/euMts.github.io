@@ -1,0 +1,105 @@
+.about {
+    /* background: url('images/me/background/6-blur-fade.jpg') center center/cover no-repeat; */
+    background-color: #1B1919;
+    padding: 4rem;
+}
+
+.about__container {
+    /* background-color: white; */
+    background-color: #1B1919;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017)); */
+}
+
+.about__rectangle {
+    /* background-color: white; */
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    /* border-radius: 10px; */
+    justify-content: center;
+    /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017)); */
+}
+
+.about__left > img {
+    width: calc(210px + 1vw);
+    height: calc(330px + 1vh);
+    padding: 0px 20px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.about__right {
+    padding: 50px 70px;
+}
+
+.about__right > h1 {
+    color: snow;
+    text-align: left;
+    /* font-size: calc(15px + 0.5vw); */
+    font-size: 40px;
+    padding: 0px 20px 30px 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.about__right > h2 {
+    color: snow;
+    text-align: justify;
+    /* font-size: calc(15px + 0.5vw); */
+    font-size: 22px;
+    padding: 10px 20px 10px 0px;
+    font-family: 'PT Sans', sans-serif;;
+    font-weight: 300;
+}
+
+.about__right > h3 {
+    color: snow;
+    text-align: justify;
+    /* font-size: calc(15px + 0.5vw); */
+    font-size: 22px;
+    padding: 10px 20px 10px 0px;
+    font-family: 'PT Sans', sans-serif;;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+    .about__rectangle {
+        flex-wrap: wrap;
+    }
+
+    .about__right {
+        padding: 0;
+    }
+
+    .about__right > h1 {
+        text-align: center;
+        padding: 0 0 40px 0;
+    }
+
+    .about__right > h2 {
+        /* font-size: calc(10px + 0.5vw); */
+        /* padding: 10px 20px; */
+        padding: 0 0 30px 0;
+    }
+
+    .about__right > h3 {
+        /* font-size: calc(8px + 0.5vw); */
+        /* padding: 10px 20px; */
+        padding: 0 0 30px 0;
+    }
+}
