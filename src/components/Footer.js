@@ -46,7 +46,7 @@ function Footer() {
                 >
                 <i className='fab fa-github' />
                 </a>
-                <a href="mailto:matheusetp@hotmail.com" rel="noreferrer"
+                <a href="mailto:contato@matheus-eduardo.com.br" rel="noreferrer"
                 className='social-icon-link email'
                 to='/'
                 target='_blank'
