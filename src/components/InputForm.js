@@ -7,7 +7,7 @@ export default function InputForm() {
     const [message, setMessage] = useState('');
 
     function sendMail() {
-        alert("Estamos trabalhando nisso, sua mensagem não pode ser enviada no momento.")
+        alert("We're working on it, your message can't be sent right now.")
     };
 
     return (

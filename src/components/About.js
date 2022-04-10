@@ -13,16 +13,15 @@ function About() {
                   <div className='about__right'>
                     <h1>My work</h1>
                     <h2>
-                    Me chamo Matheus e trabalho com soluções voltadas à tecnologia.
+                    My name is Matheus and I work with technology-oriented solutions.
                     </h2>
                     <h3>
-                    Comecei meus estudos na programação com 14 anos e atuo profissionalmente na área desde 2021. Tenho experiência com scrum, estruturas de rede, banco de dados, automação e desenvolvimento de software.
+                    I started my studies in programming at the age of 14 and have been working professionally in the area since 2021. I have experience with scrum, network structures, database, automation and software development.
                     </h3>
                     <h3>
-                    Além de escrever linhas de código minha paixão é aprimorar o dia-a-dia das pessoas por meio da tecnologia.
-                    </h3>
+                    In addition to writing lines of code, my passion is to improve people's daily lives through technology.                    </h3>
                     <h3>
-                    Sinta-se à vontade para entrar em contato comigo caso tenha interesse pelo meu trabalho.
+                    Feel free to contact me if you are interested in my work.
                     </h3>
                   </div>
               </div>

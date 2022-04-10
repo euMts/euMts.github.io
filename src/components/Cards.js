@@ -19,21 +19,21 @@ function Cards() {
                     <CardItem 
                     src={image01} 
                     text="Twitter Media to Discord" 
-                    text2="Baixa mídias de um perfil do twitter e envia para o discord" 
+                    text2="Download media from a twitter profile and send it to discord" 
                     label='Python' 
                     lang='Python'
                     url='https://github.com/euMts/twitter_media_to_discord' />
                     <CardItem 
                     src={image02} 
                     text="Instagram Bio Updater" 
-                    text2="Atualiza a biografia do instagram automaticamente" 
+                    text2="Automatically update instagram biography" 
                     label='Python' 
                     lang='Python'
                     url='https://github.com/euMts/instagram_bio_updater' />
                     <CardItem 
                     src={image06} 
                     text="Business Website" 
-                    text2="Código do meu website pessoal" 
+                    text2="My personal website code" 
                     label='React' 
                     lang='React'
                     url='https://github.com/euMts/euMts.github.io' />
