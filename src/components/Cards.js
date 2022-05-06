@@ -7,6 +7,7 @@ import image02 from '../assets/images/insta-bio-updater.jpg';
 // import image04 from '../assets/images/lightshot-scrapper.jpg';
 // import image05 from '../assets/images/insta-sorteio.jpg';
 import image06 from '../assets/images/business-website.jpg';
+import image07 from '../assets/images/sickomode.png'
 
 function Cards() {
   return (
@@ -16,13 +17,20 @@ function Cards() {
             <div className='cards__wrapper'>
               {/* each 'ul' is a row */}
                 <ul className='cards__items'>
-                    <CardItem 
+                    {/* <CardItem 
                     src={image01} 
                     text="Twitter Media to Discord" 
                     text2="Download media from a twitter profile and send it to discord" 
                     label='Python' 
                     lang='Python'
-                    url='https://github.com/euMts/twitter_media_to_discord' />
+                    url='https://github.com/euMts/twitter_media_to_discord' /> */}
+                    <CardItem 
+                    src={image07} 
+                    text="Sickomode" 
+                    text2="ESP8266 WiFi Captive Portal" 
+                    label='Arduino' 
+                    lang='Arduino'
+                    url='https://github.com/euMts/sickomode' />
                     <CardItem 
                     src={image02} 
                     text="Instagram Bio Updater" 
