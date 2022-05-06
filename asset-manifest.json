@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26aa1507.css",
+    "main.js": "/static/js/main.b1ca0cab.js",
+    "static/media/1-blur-fade-2.jpg": "/static/media/1-blur-fade-2.f4d9846fa6d05c2bdf74.jpg",
+    "static/media/sickomode.png": "/static/media/sickomode.14170c2c46c68728e52b.png",
+    "static/media/twitter-to-discord.jpg": "/static/media/twitter-to-discord.1a71623061ce5aaec0ae.jpg",
+    "static/media/insta-bio-updater.jpg": "/static/media/insta-bio-updater.40e4ae5866db219c2a37.jpg",
+    "static/media/business-website.jpg": "/static/media/business-website.ddbd97b78ad51d4d1bf9.jpg",
+    "index.html": "/index.html",
+    "main.26aa1507.css.map": "/static/css/main.26aa1507.css.map",
+    "main.b1ca0cab.js.map": "/static/js/main.b1ca0cab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26aa1507.css",
+    "static/js/main.b1ca0cab.js"
+  ]
+}
